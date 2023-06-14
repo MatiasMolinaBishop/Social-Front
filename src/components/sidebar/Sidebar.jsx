@@ -1,5 +1,7 @@
 import './Sidebar.css'
 import { RssFeed, Chat, PlayCircleFilled, Group, Bookmark, Help, WorkOutline, Event, School } from '@mui/icons-material';
+import {Users} from '../../dummyData'
+import CloseFriend from '../closeFriend/CloseFriend';
 
 const Sidebar = () => {
     return(
@@ -42,6 +44,17 @@ const Sidebar = () => {
                         <School className='sidebarIcon'/>
                         <span className="sidebarListItemtext">Courses</span>
                     </li>
+                </ul>
+                <button className='sidebarButton'>Show More</button>
+                <hr className='sidebarHr'></hr>
+                <ul className="sidebarFriendList">
+                    {Users.map((user) => (
+                        <CloseFriend key={user.id} user={user}/>
+                    ))}
+                    {/* <li className="sidebarFriend">
+                        <img className='sidebarFriendImg' src='../assets/person/2.jpeg' alt=''/>
+                        <span className='sidebarFriendName'>Jane Doe</span>
+                    </li> */}
                 </ul>
             </div>
    
