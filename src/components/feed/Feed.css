@@ -1,12 +1,12 @@
 .feed {
     flex: 5.5;
-    height: calc(100vh - 50px);
-    overflow: scroll;
-    position: sticky;
-    top: 50px;
+    /* height: calc(100vh - 50px); */
+    /* overflow: scroll; */
+    /* position: sticky;
+    top: 50px; */
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 5px;
 }
 
@@ -16,4 +16,8 @@
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(179, 179, 179);
+} */
+
+.feedWrapper{
+    padding: 20px;
 }
