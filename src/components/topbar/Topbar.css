@@ -6,7 +6,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    /* z-index: 999; */
+    z-index: 999;
 }
 
 /* HERE WE DEVIDE THE CONTAINER INTO 12 PARTS. 3 ON THE LEFT, 5 ON CENTER ETC */

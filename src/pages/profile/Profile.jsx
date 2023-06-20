@@ -32,6 +32,7 @@ const Profile = () => {
           </div>
           <div className="profileRightBottom">
             <Feed />
+            {/* profilr here will indicate if rightbar is in home or profile page */}
             <Rightbar profile/>
           </div>
         </div>
